@@ -20,7 +20,7 @@ Security: To ensure secure access and management of sensitive patient data throu
 
 Analytics: To gather and analyze data related to patient care and service usage for better decision-making.
 
-Main Modules
+**Main Modules**
 
 The system is divided into several key modules, each responsible for specific functionalities:
 
