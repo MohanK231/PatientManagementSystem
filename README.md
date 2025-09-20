@@ -97,8 +97,7 @@ It listens to a Kafka topic named "patient" to process patient events for analyt
 
 Manages authentication and authorization.
 Provides endpoints for login and token validation (security-service/src/main/java/com/example/securityservice/controller/AuthController.java).
-It likely uses a database to store user credentials and roles, although the specific database implementation is not detailed in the provided files.
-Database Usage
+It likely uses a database to store user credentials and roles.
 
 **Patient Service:**
 
@@ -110,8 +109,8 @@ The PatientRepository interface allows for operations like checking if a patient
 The database usage is not explicitly mentioned in the provided files, but it may also use a relational database or another storage mechanism depending on the implementation.
 Security Service:
 
-Likely uses a database to manage user accounts and authentication tokens, although specific details are not provided.
+Likely uses a database to manage user accounts and authentication tokens.
 
 **Summary**
 Inter-Service Communication: The services communicate through HTTP (API Gateway to services) and gRPC (Patient Service to Billing Service). The Analytics Service consumes events from Kafka.
-Database: The Patient Service uses a relational database via JPA, while the Billing and Security Services may also use databases, but specific implementations are not detailed in the provided files.
+Database: The Patient Service uses a relational database via JPA, while the Billing and Security Services may also use databases.
